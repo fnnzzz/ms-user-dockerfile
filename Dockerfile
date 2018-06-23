@@ -5,4 +5,4 @@ WORKDIR /app
 RUN npm i
 RUN npm i nodemon -g
 EXPOSE 5000
-RUN npm start
+CMD ["npm", "start"]
